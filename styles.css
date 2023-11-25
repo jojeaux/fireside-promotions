@@ -139,3 +139,34 @@ body {
 
 
 /****************************************************************** home contact end */
+
+/****************************************************************** footer */
+
+footer {
+    z-index: 1;
+    background-color: #444;
+    background-size: cover;
+}
+
+/* .footerLinks {
+    gap: 3rem;
+    flex-wrap: wrap;
+} */
+
+footer a {
+    text-decoration: none;
+}
+
+.footerContent {
+    display: flex;
+}
+
+.footerIcons {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+
+
+/****************************************************************** footer end */
