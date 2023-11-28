@@ -14,6 +14,10 @@ body {
     float: right;
 }
 
+.navbar-brand {
+    color: #FFCB6B;
+}
+
 /****************************************************************** hero banner */
 
 .heroBanner {
