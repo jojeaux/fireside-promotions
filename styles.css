@@ -183,12 +183,10 @@ footer {
     z-index: 1;
     background-color: #444;
     background-size: cover;
+    bottom: 0;
+    position: absolute;
 }
 
-/* .footerLinks {
-    gap: 3rem;
-    flex-wrap: wrap;
-} */
 
 footer a {
     text-decoration: none;
@@ -203,7 +201,5 @@ footer a {
     align-items: flex-end;
     gap: 1rem;
 }
-
-
 
 /****************************************************************** footer end */
