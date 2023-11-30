@@ -55,15 +55,43 @@ body {
 
 /****************************************************************** home about end */
 
-/****************************************************************** home services */
+/****************************************************************** Services Cards */
 
 .homeServiceSectionHeader {
     transform: translateY(2rem);
 }
 
-.homeServiceCard {
-    background-image: url(http://picsum.photos/300/200);
+.digitalMarketingCard {
+    background-image: url(Images/digital-marketing.jpg);
     background-size: cover;
+}
+
+.marketingCard {
+    background-image: url(Images/marketing.jpg);
+    background-size: cover;
+}
+
+.publicRelationsCard {
+    background-image: url(Images/public-relations.jpg);
+    background-size: cover;
+}
+
+.radioPromotionsCard {
+    background-image: url(Images/radio-promotion.jpg);
+    background-size: cover;
+}
+
+.fireStartersCard {
+    background-image: url(Images/fire-starters.jpg);
+    background-size: cover;
+}
+
+.labelServicesCard {
+    background-image: url(Images/label-services.jpg);
+    background-size: cover;
+}
+
+.homeServiceCard {
     padding: 4rem 0 0; 
     border-radius: .5rem;
     overflow: hidden;
@@ -141,7 +169,7 @@ body {
 }
 
 
-/****************************************************************** home services end */
+/****************************************************************** Services Cards end */
 
 /****************************************************************** home contact */
 
