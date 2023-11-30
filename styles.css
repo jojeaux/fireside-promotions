@@ -179,16 +179,18 @@ body {
 
 /****************************************************************** footer */
 
-footer {
+.footer {
     z-index: 1;
     background-color: #444;
     background-size: cover;
     bottom: 0;
-    position: absolute;
 }
 
+.footerLinks {
+    word-spacing: 1.5rem;
+}
 
-footer a {
+.footer a {
     text-decoration: none;
 }
 
