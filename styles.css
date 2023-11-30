@@ -1,6 +1,10 @@
 body {
     background-color: #121212;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 .headerFont {
@@ -28,6 +32,7 @@ body {
     min-height: 60vh;
     min-height: 60dvh;
     position: relative;
+    overflow-x: hidden;
 }
 
 .heroBanner h1 {
@@ -184,6 +189,7 @@ body {
     background-color: #444;
     background-size: cover;
     bottom: 0;
+    margin-top: auto;
 }
 
 .footerLinks {
