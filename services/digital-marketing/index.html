@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Domine&family=Gabarito:wght@700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../../styles.css">
-
 </head>
 
 <body>
- 
+
+    <!-- nav bar -->
     <nav class="navbar navbar-expand-sm" data-bs-theme="dark">
         <div class="container-fluid">
             <a href="../../index.html" class="navbar-brand"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-fire d-inline-block align-text-top" viewBox="0 0 16 16">
@@ -61,6 +61,7 @@
             </div>    
         </div>
     </nav>
+    <!-- nav bar end -->
 
     <main class="container my-4">
         
@@ -68,46 +69,51 @@
             <h2 class="headerFont fs-1 service Header">Digital Marketing</h2>
         </div>
 
-        <div class="row mb-4 gx-5 gy-2">
+        <div class="row gx-5 gy-2">
+            <!-- main copy -->
             <div class="col-md-6 my-3">
                 <p>Digital marketing is the core of what we do at Fireside Promotions. The best place to meet your fans is where they're at, and more than ever, where they're at is online.</p>
                 <p>Managing your social media presence, content, and streams is a full time job. You shouldn't have to split your time between the internet and your art. Our expert staff is equipped to create a unified vibe for your brand across the web.</p>
                 <p>Get in touch with us below to find out how we can increase your brand across the web and draw more ears to your music!</p>
+                <p>Our services include:</p>
+                <ul>
+                    <li>Playlisting on all major platforms</li>
+                    <li>Digital advertising</li>
+                    <li>Social media content strategy</li>
+                    <li>Digital brand strategy</li>
+                    <li>Newsletter management</li>
+                </ul>
             </div>
+            <!-- end main copy -->
 
             <div class="col-md-6 d-none d-md-block">
                 <img class="headerImage" src="../../Images/digital-marketing.jpg" alt="Two men collaborating on a computer in a dark office.">
             </div>
 
-           <div class="row"> 
-                <div class="col-md-6">
-                    <h2 class="homeContentHeader headerFont my-3">Got a project in mind? Let us know how we can help!</h2>
-                </div>
-
-                <form action="../../contact/thank-you.html" data-bs-theme="dark">
-                    <div class="form-floating mb-3 col-lg-4 col-md-6">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                    
-
-                    <div class="mb-3">
-                        <label for="inputMessage" class="form-label">Send us a message!</label>
-                        <textarea class="form-control" id="inputMessage" rows="5" placeholder="Let us know how we can help you!"></textarea>
-                    </div>
-                    <input class="btn btn-dark" type="submit" value="Submit">
-                </form>
+            <!-- contact section -->
+            <div class="col-md-6">
+                <h2 class="homeContentHeader headerFont my-3">Got a project in mind? Let us know how we can help!</h2>
             </div>
+
+            <form action="../../contact/thank-you.html" data-bs-theme="dark">
+                <div class="form-floating mb-3 col-lg-4 col-md-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                
+
+                <div class="mb-3">
+                    <label for="inputMessage" class="form-label">Send us a message!</label>
+                    <textarea class="form-control" id="inputMessage" rows="5" placeholder="Let us know how we can help you!"></textarea>
+                </div>
+                <input class="btn btn-dark" type="submit" value="Submit">
+            </form>
+            <!-- end contact section --> 
         </div>
-      
-       
-
-    
-
     </main>
 
+    <!-- footer -->
     <div class="footer px-3 py-3">
-        
         <div class="row">
             <h5>Fireside Promotions</h5>
         </div>
@@ -139,6 +145,7 @@
         </div>
             
     </div>
+    <!-- end footer -->
 
   <!-- Bootstrap .js script-->  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
